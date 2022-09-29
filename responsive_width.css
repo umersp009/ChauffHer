@@ -147,11 +147,6 @@
 
   }
 
-  .select-to-scroll a :hover {
-    color: #2CC7BA;
-    /* font-size: 22px; */
-  }
-
   .select-to-scroll {
     width: 50%;
     margin: auto;
@@ -228,6 +223,7 @@
   .section-text {
     width: 86%;
     float: left;
+    margin-top: 6px;
   }
 
   .section-icon {
@@ -326,6 +322,7 @@
     /* float: right; */
     /* margin-right: 10%; */
     /* margin-top: 2.8%; */
+    margin-bottom: -5px;
   }
 
   video::-webkit-media-controls-panel {
@@ -1161,6 +1158,7 @@
   .m-p {
     float: left;
     margin-top: 12px;
+    width: 100%;
   }
 
   .mail-phone {
@@ -1212,17 +1210,7 @@
   }
 
 
-  .facebook i:hover {
-    color: black;
-  }
-
-  .instagram i:hover {
-    color: black;
-  }
-
-  .linkedin i:hover {
-    color: black;
-  }
+ 
 
   .foot-soc-icons a {
     text-decoration: none;
@@ -1388,7 +1376,7 @@
 
   .rs-icon {
     width: 15%;
-    height: 68px;
+    height: 58px;
   }
 
   .rs-icon img {
@@ -1457,9 +1445,7 @@
   /* .main-div-a:hover{
    color: red;
 } */
-  .main-div-a a:hover {
-    color: #080451;
-  }
+  
 
 
 
@@ -1653,21 +1639,7 @@
 
 
 
-  .facebook i:hover {
-    color: #458eff;
-  }
-
-  .instagram i:hover {
-    color: #9f3ab9;
-  }
-
-  .linkedin i:hover {
-    color: #1c9cea;
-  }
-
-  .whatsapp i:hover {
-    color: #40bf50;
-  }
+ 
 
   .qr-div {
     /* border: 2px solid red; */

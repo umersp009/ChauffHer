@@ -166,7 +166,7 @@ html {
     margin: 0;
     width: 100%;
     width: 330px;
-    margin: auto;
+    /* margin: auto; */
     margin-top: -10px;
 
   }
