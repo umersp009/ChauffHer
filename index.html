@@ -48,52 +48,48 @@
 
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
 
-    <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+    <!-- <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script> -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 
     <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-243697047-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-243697047-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
 
-  gtag('config', 'UA-243697047-1');
-</script>
+        gtag('config', 'UA-243697047-1');
+    </script>
 </head>
+
+
+
 
 <body>
 
+    <div id="loader" class="centerrr"></div>
+
+    <script>
+        document.onreadystatechange = function () {
+            if (document.readyState !== "complete") {
+                document.querySelector(
+                    "body").style.visibility = "hidden";
+                document.querySelector(
+                    "#loader").style.visibility = "visible";
+            } else {
+                document.querySelector(
+                    "#loader").style.display = "none";
+                document.querySelector(
+                    "body").style.visibility = "visible";
+            }
+        };
+    </script>
+
     <header>
 
-        <div class="humburger">
-            <div class="topnav">
-
-                <div>
-                    <a href="https://vcreatek.com/services/chauffher-cabs/" class="active">
-                        <img src="./images/CHAUFF-LOGO.png" class="navbar-logo">
-
-
-                    </a>
-
-                </div>
-                <div id="myLinks" class="nav-pages">
-                    <a href="index.html">Home</a>
-                    <a href="./pages/Faqs.html">FAQ</a>
-                    <a href="./pages/contact.html">Contact</a>
-
-                </div>
-                <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-                    <!-- <i class="fa fa-bars"></i> -->
-                    <i class="fa fa-bars" aria-hidden="true"></i>
-                </a>
-            </div>
-
-
-        </div>
-
+        
         <div class="no-humburger">
             <div class="image-div">
                 <div class="center-logo">
@@ -107,7 +103,7 @@
             </div>
             <ul class="Navbar">
                 <div class="nav-pages">
-                    <a href="index.html">
+                    <a href="index.html" style="color:#2CC7BA; ">
                         Home
                     </a>
                     <a href="./pages/Faqs.html">
@@ -115,6 +111,12 @@
                     </a>
                     <a href="./pages/contact.html">
                         Contact Us
+                    </a>
+                    <a href="./pages/gallery.html">
+                        Gallery
+                    </a>
+                    <a href="./pages/career.html">
+                        Career
                     </a>
                 </div>
             </ul>
@@ -127,11 +129,44 @@
 
                 <a href="#thewhy"><button>The Why</button></a>
                 <a href="#thewhat"><button>The What</button></a>
-                <a href="#ourvalue"><button>Our Values</button></a>
+                <!-- <a href="#ourvalue"><button>Our Values</button></a> -->
                 <a href="#ourfleet"><button>Our Fleet</button></a>
                 <a href="#whatsmore"><button>What's More</button></a>
+                <a href="#ourclients"><button>Our Clients</button></a>
+                <a href="#drivers"><button>Driver Stories</button></a>
+
 
             </div>
+
+        </div>
+
+        <div class="humburger">
+            <div class="topnav">
+
+                <div>
+                    <a href="https://vcreatek.com/services/chauffher-cabs/" class="active">
+                        <img src="./images/CHAUFF-LOGO.png" class="navbar-logo">
+
+
+                    </a>
+
+                </div>
+                <div id="myLinks" class="nav-pages">
+                    <a href="index.html"  style="color:#7f7f7f">  Home</a>
+                    <a href="./pages/Faqs.html">FAQ</a>
+                    <a href="./pages/contact.html">Contact</a>
+                    <a href="./pages/gallery.html">Gallery</a>
+                    <a href="./pages/career.html">
+                        Career
+                    </a>
+
+                </div>
+                <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                    <!-- <i class="fa fa-bars"></i> -->
+                    <i class="fa fa-bars" aria-hidden="true"></i>
+                </a>
+            </div>
+
 
         </div>
 
@@ -167,9 +202,12 @@
                     <div class="scroll-to-id">
                         <a href="#thewhy"><button>The Why</button></a>
                         <a href="#thewhat"><button>The What</button></a>
-                        <a href="#ourvalue"><button>Our Value</button></a>
+                        <!-- <a href="#ourvalue"><button>Our Value</button></a> -->
                         <a href="#ourfleet"><button>Our Fleet</button></a>
                         <a href="#whatsmore"><button>What's More</button></a>
+                        <a href="#ourclients"><button>Our Clients</button></a>
+                        <a href="#drivers"><button>Driver Stories</button></a>
+
                     </div>
 
                 </div>
@@ -189,13 +227,13 @@
                 <video class="video-control" autoplay loop muted="" controls>
                     <source src="./images/ChauffHER Introduction.mp4" type="video/mp4">
                 </video>
-                
+
 
 
             </div>
         </div>
 
-       
+
 
 
         <!-- --------------------- -->
@@ -415,7 +453,7 @@
 
 
 
-
+        <!-- 
         <div id="ourvalue" class="our-value">
 
 
@@ -499,7 +537,7 @@
 
                 </div>
 
-                <!-- --- -->
+                
 
                 <div class="value-second">
 
@@ -536,7 +574,7 @@
                 </div>
 
             </div>
-        </div>
+        </div> -->
 
         <!-- ---------- -->
 
@@ -877,9 +915,374 @@
         </div>
 
 
+        <div id="ourclients" class="our-clients">
+            <div class="the-heading"><span>Our Clients </span></div>
+
+            <div class="clients-logo-contain">
+                <div class="clients-contain">
+                    <div class="contains">
+                        <img src="./images/CHAUFF-LOGO.png" alt="">
+                    </div>
+                    <div class="contains contains-two">
+                        <img src="./images/CHAUFF-LOGO.png" alt="">
+
+                    </div>
+                    <div class="contains contains-three">
+                        <img src="./images/CHAUFF-LOGO.png" alt="">
+
+                    </div>
+                    <div class="contains contains-three contains-four">
+                        <img src="./images/CHAUFF-LOGO.png" alt="">
+
+                    </div>
+                </div>
+
+            </div>
+
+
+            <div class="customer-test non-resp-cust-test">
+                <div class="the-heading"><span>Customer Testimonials </span></div>
+
+                <div class="cust-testimonial">
+
+                    <div class="cust-test cust-test-one">
+                        <!-- <div class="cust-bg">
+                        </div> -->
+                        <div class="cust-img">
+                            <!-- <img src="/images/baby-blue.png" class="cust-img1"> -->
+                            <img src="/images/car-image.png" class="cust-img2" alt="">
+                        </div>
+
+                        <div class="cust-italic">
+                            <p>"It was pleasure to connect"</p>
+                        </div>
+
+                        <div class="cust-name">
+                            <p>Amanda Brian <br>
+                                Senior Director, BNY Mellon</p>
+                        </div>
+
+                        <div class="cust-desc">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis veniam necessitatibus
+                                nisi molestias nostrum blanditiis laudantium fugit assumenda eaque fuga porro voluptates
+                                perferendis, placeat beataqui enim obcaecati ab quis sint, explicabo tempora
+                                exercitationem voluptates doloremque optio.</p>
+                        </div>
+
+                    </div>
+
+
+                    <div class="cust-test cust-test-two">
+                        <!-- <div class="cust-bg">
+                        </div> -->
+                        <div class="cust-img">
+                            <!-- <img src="/images/baby-blue.png" class="cust-img1"> -->
+                            <img src="/images/car-image.png" class="cust-img2" alt="">
+                        </div>
+
+                        <div class="cust-italic">
+                            <p>"It was pleasure to connect"</p>
+                        </div>
+
+                        <div class="cust-name">
+                            <p>Amanda Brian <br>
+                                Senior Director, BNY Mellon</p>
+                        </div>
+
+                        <div class="cust-desc">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis veniam necessitatibus
+                                nisi molestias nostrum blanditiis laudantium fugit assumenda eaque fuga porro voluptates
+                                perferendis, placeat beatae id im obcaecati ab quis sint, explicabo tempora
+                                exercitationem voluptates doloremque optio.</p>
+                        </div>
+
+                    </div>
+
+
+                    <div class="cust-test cust-test-three">
+
+                        <div class="cust-img">
+                            <!-- <img src="/images/baby-blue.png" class="cust-img1"> -->
+                            <img src="/images/car-image.png" class="cust-img2" alt="">
+                        </div>
+
+                        <div class="cust-italic">
+                            <p>"It was pleasure to connect"</p>
+                        </div>
+
+                        <div class="cust-name">
+                            <p>Amanda Brian <br>
+                                Senior Director, BNY Mellon</p>
+                        </div>
+
+                        <div class="cust-desc">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis veniam necessitatibus
+                                nisi molestias nostrum blanditiis laudantium fugit assumenda eaque fuga porro voluptates
+                                perferendis, placeat beatim obcaecati ab quis sint, explicabo tempora
+                                exercitationem voluptates doloremque optio.</p>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+
+
+            <div class="customer-test resp-cust-test">
+
+                <div class="the-heading"><span>Customer Testimonials </span></div>
+
+                <div class="cust-testimonial slideshow-container">
+
+                    <div class="cust-test cust-test-one mySlidesresp fadeauto ">
+                        <!-- <div class="cust-bg">
+                        </div> -->
+                        <div class="cust-img">
+                            <!-- <img src="/images/baby-blue.png" class="cust-img1"> -->
+                            <img src="/images/car-image.png" class="cust-img2" alt="">
+                        </div>
+
+                        <div class="cust-italic">
+                            <p>"It was pleasure to 11"</p>
+                        </div>
+
+                        <div class="cust-name">
+                            <p>Amanda Brian <br>
+                                Senior Director, BNY Mellon</p>
+                        </div>
+
+                        <div class="cust-desc">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis veniam necessitatibus
+                                nisi molestias nostrum blanditiis laudantium fugit assumenda eaque fuga porro voluptates
+                                perferendis, placeat beatae id aut temporibus sed fugiat ipsam nulla corporis dicta.
+                            </p>
+                        </div>
+
+                    </div>
+
+
+                    <div class="cust-test cust-test-two mySlidesresp fadeauto">
+                        <!-- <div class="cust-bg">
+                        </div> -->
+                        <div class="cust-img">
+                            <!-- <img src="/images/baby-blue.png" class="cust-img1"> -->
+                            <img src="/images/car-image.png" class="cust-img2" alt="">
+                        </div>
+
+                        <div class="cust-italic">
+                            <p>"It was pleasure to 22"</p>
+                        </div>
+
+                        <div class="cust-name">
+                            <p>Amanda Brian <br>
+                                Senior Director, BNY Mellon</p>
+                        </div>
+
+                        <div class="cust-desc">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis veniam necessitatibus
+                                nisi molestias nostrum blanditiis laudantium fugit assumenda eaque fuga porro voluptates
+                                perferendis, placeat beatae id aut temporibus sed fugiat ipsam nulla corporis dicta.
+                            </p>
+                        </div>
+
+                    </div>
+
+
+                    <div class="cust-test cust-test-three mySlidesresp fadeauto ">
+
+                        <div class="cust-img">
+                            <!-- <img src="/images/baby-blue.png" class="cust-img1"> -->
+                            <img src="/images/car-image.png" class="cust-img2" alt="">
+                        </div>
+
+                        <div class="cust-italic">
+                            <p>"It was pleasure to 33"</p>
+                        </div>
+
+                        <div class="cust-name">
+                            <p>Amanda Brian <br>
+                                Senior Director, BNY Mellon</p>
+                        </div>
+
+                        <div class="cust-desc">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis veniam necessitatibus
+                                nisi molestias nostrum blanditiis laudantium fugit assumenda eaque fuga porro voluptates
+                                perferendis, placeat beatae id aut temporibus sed fugiat ipsam nulla corporis dicta.
+                            </p>
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <div style="text-align:center">
+                    <span class="dotttt"></span>
+                    <span class="dotttt"></span>
+                    <span class="dotttt"></span>
+                </div>
+
+                <script>
+                    let slideIndexx = 0;
+                    showSlidesss();
+
+                    function showSlidesss() {
+                        let on;
+                        let slidesss = document.getElementsByClassName("mySlidesresp");
+                        let dots = document.getElementsByClassName("dotttt");
+                        for (on = 0; on < slidesss.length; on++) {
+                            slidesss[on].style.display = "none";
+                        }
+                        slideIndexx++;
+                        if (slideIndexx > slidesss.length) { slideIndexx = 1 }
+                        for (on = 0; on < dots.length; on++) {
+                            dots[on].className = dots[on].className.replace(" activeee", "");
+                        }
+                        slidesss[slideIndexx - 1].style.display = "block";
+                        dots[slideIndexx - 1].className += " activeee";
+                        setTimeout(showSlidesss, 3000); // Change image every 2 seconds
+                    }
+                </script>
+
+
+            </div>
+
+
+
+
+
+        </div>
+
+
+
+        <div id="drivers" class="driver-contain">
+
+
+            <div class="the-heading"><span>Driver's Stories </span></div>
+
+            <div class="slide-div">
+
+                <a class="prev" onclick="plusSlides(-1)">❮</a>
+
+                <div class="mySlides fade">
+                    <div class="drive-left">
+                        <div class="driv-img-cent"> <img src="/images/car-image.png" alt=""> </div>
+                    </div>
+                    <div class="driv-desc">
+
+                        <div class="driv-name">
+                            Vcreatek 1st
+                        </div>
+                        <div class="driv-name-desc">
+                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quaerat omnis ratione commodi esse
+                            rem reiciendis minima, obcaecati possimus dolorum doloribus cupiditate, aut magnam debitis
+                            deleniti?
+                        </div>
+
+                    </div>
+                </div>
+
+
+                <div class="mySlides fade">
+                    <div class="drive-left">
+                        <div class="driv-img-cent"> <img src="/images/car-image.png" alt=""> </div>
+                    </div>
+                    <div class="driv-desc">
+
+                        <div class="driv-name">
+                            Vcreatek 2nd
+                        </div>
+                        <div class="driv-name-desc">
+                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quaerat omnis ratione commodi esse
+                            rem reiciendis minima, obcaecati possimus dolorum doloribus cupiditate, aut magnam debitis
+                            deleniti?
+                        </div>
+
+                    </div>
+                </div>
+
+
+                <div class="mySlides fade">
+                    <div class="drive-left">
+                        <div class="driv-img-cent"> <img src="/images/car-image.png" alt=""> </div>
+                    </div>
+                    <div class="driv-desc">
+
+                        <div class="driv-name">
+                            Vcreatek 3rd
+                        </div>
+                        <div class="driv-name-desc">
+                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quaerat omnis ratione commodi esse
+                            rem reiciendis minima, obcaecati possimus dolorum doloribus cupiditate, aut magnam debitis
+                            deleniti?
+                        </div>
+
+                    </div>
+                </div>
+
+                <a class="next" onclick="plusSlides(1)">❯</a>
+
+
+                <!-- <div class="lr-click">
+                </div> -->
+
+
+                <!-- <div style="text-align:center" class="slider-button ">
+                    <span class="dot" onclick="currentSlide(1)"></span>
+                    <span class="dot" onclick="currentSlide(2)"></span>
+                    <span class="dot" onclick="currentSlide(3)"></span>
+                </div> -->
+
+
+            </div>
+
+
+            <div style="text-align:center" class="slider-button">
+                <span class="dot" onclick="currentSlide(1)"></span>
+                <span class="dot" onclick="currentSlide(2)"></span>
+                <span class="dot" onclick="currentSlide(3)"></span>
+            </div>
+
+            <script>
+
+                var slideIndex = 1;
+                showSlides(slideIndex);
+
+                function plusSlides(n) {
+                    showSlides(slideIndex += n);
+                }
+
+                function currentSlide(n) {
+                    showSlides(slideIndex = n);
+                }
+
+                function showSlides(n) {
+                    var i;
+                    var slides = document.getElementsByClassName("mySlides");
+                    var dots = document.getElementsByClassName("dot");
+                    if (n > slides.length) { slideIndex = 1 }
+                    if (n < 1) { slideIndex = slides.length };
+                    for (i = 0; i < slides.length; i++) {
+                        slides[i].style.display = "none";
+                    }
+                    for (i = 0; i < dots.length; i++) {
+                        dots[i].className = dots[i].className.replace(" aactive", "");
+                    }
+                    slides[slideIndex - 1].style.display = "block";
+                    dots[slideIndex - 1].className += " aactive";
+                }
+
+
+            </script>
+        </div>
 
 
     </div>
+
+
+
 
 
     <footer class="non-resp-foot">
@@ -969,9 +1372,12 @@
                 </div>
 
                 <div class="foot-soc-icons foot-sl-icon">
-                    <a href="https://www.linkedin.com/company/chauffher-mobility/" class="linkedin" style="color: #0077b5;"> <i class="fa fa-linkedin"></i> </a>
-                    <a href="https://www.instagram.com/ChauffHERmobility/" class="instagram"><i class="fa fa-instagram"></i> </a>
-                    <a href="https://www.facebook.com/people/ChauffHer/100086520212515/" class="facebook"> <i class="fa fa-facebook"></i> </a>
+                    <a href="https://www.linkedin.com/company/chauffher-mobility/" class="linkedin"
+                        style="color: #0077b5;"> <i class="fa fa-linkedin"></i> </a>
+                    <a href="https://www.instagram.com/ChauffHERmobility/" class="instagram"><i
+                            class="fa fa-instagram"></i> </a>
+                    <a href="https://www.facebook.com/people/ChauffHer/100086520212515/" class="facebook"> <i
+                            class="fa fa-facebook"></i> </a>
                     <!-- <a href="" class="whatsapp"><i class="fa fa-whatsapp"></i></a> -->
                 </div>
 
@@ -1033,9 +1439,12 @@
                     </div>
 
                     <div class="foot-soc-icons foot-sl-icon">
-                        <a href="https://www.linkedin.com/company/chauffher-mobility/" class="linkedin"> <i class="fa fa-linkedin"></i> </a>
-                        <a href="https://www.instagram.com/ChauffHERmobility/" class="instagram"><i class="fa fa-instagram"></i> </a>
-                        <a href="https://www.facebook.com/people/ChauffHer/100086520212515/" class="facebook"> <i class="fa fa-facebook"></i> </a>
+                        <a href="https://www.linkedin.com/company/chauffher-mobility/" class="linkedin"> <i
+                                class="fa fa-linkedin"></i> </a>
+                        <a href="https://www.instagram.com/ChauffHERmobility/" class="instagram"><i
+                                class="fa fa-instagram"></i> </a>
+                        <a href="https://www.facebook.com/people/ChauffHer/100086520212515/" class="facebook"> <i
+                                class="fa fa-facebook"></i> </a>
                         <!-- <a href="" class="whatsapp"><i class="fa fa-whatsapp"></i></a> -->
                     </div>
 
@@ -1086,7 +1495,7 @@
 
 
         <div class="footer-div">
-            <div class="foot-text-cent ">
+            <div class="foot-text-cent">
                 <span> Copyright 2022 by VCreatek Mobility LLP. All Rights Reserved. </span>
             </div>
         </div>
@@ -1172,6 +1581,11 @@
                 }
             });
         }
+
+
+        // ---------------------
+
+
     </script>
 
     <!-- ---------- -->
