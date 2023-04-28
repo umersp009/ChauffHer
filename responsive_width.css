@@ -1791,15 +1791,18 @@
 
 
   .our-clients {
-    height: 1250px;
+    height: 1050px;
     /* border: 2px solid red; */
     scroll-margin-top: 48px;
-
+margin-bottom: 25px;
   }
 
+  .two-resp-clients{
+    display: none;
+  }
   .clients-logo-contain {
     /* border: 2px solid blue; */
-    height: 8%;
+    height: 10%;
   }
 
   .clients-contain {
@@ -1838,7 +1841,7 @@
 
   .resp-cust-test {
     /* border: 4px solid green; */
-    height: 70%;
+    height: 75%;
   }
 
 
@@ -1977,7 +1980,7 @@
 
     font-weight: 400;
     font-size: 18px;
-    line-height: 28px;
+    line-height: 25px;
     text-align: center;
   }
 
