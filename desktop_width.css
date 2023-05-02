@@ -70,7 +70,7 @@ html {
 
     font-weight: 600;
     font-family: 'Raleway', sans-serif;
-    padding: 0px 32px;
+    padding: 0px 26px;
     margin: 20px 10px 0px 10px;
     text-align: center;
     text-decoration: none;
@@ -1580,7 +1580,7 @@ html {
   }
 
   .launch-title {
-    width: 82%;
+    width: 89%;
     margin: auto;
     /* border: 2px solid grey; */
     height: 15%;
