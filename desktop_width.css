@@ -995,6 +995,9 @@ html {
   .contains-three {
     margin-left: 8%;
   }
+  .contains-three img{
+    height: 100%;
+  }
 
   .cust-testimonial {
     height: 660px;
