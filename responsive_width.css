@@ -1798,11 +1798,11 @@ margin-bottom: 25px;
   }
 
   .two-resp-clients{
-    display: none;
+    /* display: none; */
   }
   .clients-logo-contain {
     /* border: 2px solid blue; */
-    height: 10%;
+    height: 20%;
   }
 
   .clients-contain {
@@ -1831,8 +1831,10 @@ margin-bottom: 25px;
     margin-left: 10%;
   }
 
+
   .contains-three {
-    margin-top: 10%;
+    margin-top: 0%;
+    margin-left: 27%;
   }
 
   .non-resp-cust-test {
