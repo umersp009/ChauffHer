@@ -6,7 +6,7 @@
 
     .main-div {
         /* border: 2px solid red; */
-        height: 320px;
+        height: 420px;
         width: 80%;
         margin: auto;
         margin-bottom: 6%;
@@ -67,14 +67,19 @@
 
     .name-mail-div {
         /* border: 2px solid red; */
-        height: 33%;
+        height: 25%;
+        position: relative;
+    }
+    .name-mail-div-2 {
+        /* border: 2px solid red; */
+        height: 25%;
         position: relative;
     }
 
     .address {
         float: left;
         width: 100%;
-        height: 33%;
+        height: 25%;
         margin: auto;
         position: relative;
         /* border: 2px solid black; */
@@ -88,7 +93,7 @@
         /* position: relative; */
         float: left;
         width: 100%;
-        height: 33%;
+        height: 25%;
         margin: auto;
         position: relative;
 
