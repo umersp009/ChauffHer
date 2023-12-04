@@ -1572,8 +1572,9 @@
   .address {
     /* float: left; */
     width: 90%;
-    height: 44%;
+    height: 40%;
     margin: auto;
+    padding-top: 5%;
     /* border: 2px solid black; */
   }
 
@@ -1585,7 +1586,7 @@
   #full-address {
     width: 90%;
     margin: auto;
-    height: 42%;
+    height: 55%;
   }
 
   #full-address a {
@@ -1727,7 +1728,7 @@
 
 
   .add-div {
-    height: 52%;
+    height: 30%;
   }
 
   /* .vcs-cent{
