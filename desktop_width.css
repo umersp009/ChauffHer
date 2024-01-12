@@ -946,6 +946,7 @@ html {
     /* height: 350px; */
   }
 
+ 
 
   /* ----------------- */
   /* ----------------- */
@@ -953,7 +954,7 @@ html {
 
 
   .our-clients {
-    height: 1050px;
+    height: 1439px;
     scroll-margin-top: 150px;
 
   }
@@ -996,11 +997,11 @@ html {
     margin-left: 8%;
   }
   .contains-three img{
-    height: 111%;
+    height: 100%;
   }
 
   .cust-testimonial {
-    height: 660px;
+    height: 600px;
     width: 85%;
     margin: auto;
     /* border: 2px solid red; */
@@ -1015,7 +1016,7 @@ html {
   .cust-test {
     width: 30%;
     box-shadow: 0px 0px 4px 1px #e1e1e1;
-    height: 630px;
+    height: 590px;
     float: left;
   }
 
@@ -1214,12 +1215,37 @@ html {
     margin-bottom: 5%;
   }
 
+  .emp-test-head {
+    margin-top: 0px;
+  }
+  .clients-video{
+    /* float: left; */
+    width: 100%;
+    height: 500px;
+    margin: auto;
+    /* margin-top: 30px; */
+    margin-bottom: 30px;
+  }
+  .clients-video-bg{
+    background-color: #20acac30;
+    width: 100%;
+    height: 85%;
+  }
+  .clients-video video{
+    border-radius: 15px;
+    width: 50%;
+    height: 100%;
+    margin-left: 25%;
+    /* border: 2px solid red; */
+  }
+  
+
   /* ------- */
   /* ------- */
   /* ------- */
 
   .slider-button {
-    margin: 17px 0px;
+    margin: 17px 0px 0px 0px;
     /* float: left; */
     text-align: center;
   }
